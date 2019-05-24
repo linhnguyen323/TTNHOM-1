@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{304F3F8F-50A6-45AE-862A-87B879D5277A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BUS</RootNamespace>
+    <AssemblyName>BUS</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>D:\Sách CNTT\Giáo Trình MTA\Giáo Trình Năm 3\Kỳ 2\Thực tập nhóm\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaoCaoDoanhThuControl.cs" />
+    <Compile Include="ChinhSachTraControl.cs" />
+    <Compile Include="ChiTietHoaDonControl.cs" />
+    <Compile Include="ChiTietPhieuNhanControl.cs" />
+    <Compile Include="ChiTietPhieuThueControl.cs" />
+    <Compile Include="DanhSachSuDungDichVuControl.cs" />
+    <Compile Include="DichVuControl.cs" />
+    <Compile Include="DonViControl.cs" />
+    <Compile Include="HoaDonControl.cs" />
+    <Compile Include="KhachHangControl.cs" />
+    <Compile Include="LoaiDichVuControl.cs" />
+    <Compile Include="LoaiKhachHangControl.cs" />
+    <Compile Include="LoaiNguoiDungControl.cs" />
+    <Compile Include="LoaiPhongControl.cs" />
+    <Compile Include="LoaiTinhTrangPhongControl.cs" />
+    <Compile Include="NguoiDungControl.cs" />
+    <Compile Include="PhieuNhanPhongControl.cs" />
+    <Compile Include="PhieuThuePhongControl.cs" />
+    <Compile Include="PhongControl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuiDinhControl.cs" />
+    <Compile Include="ThietBiControl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{167bd69d-cc00-488b-8b67-333c4b9de358}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{80eff7ba-a9a8-4f4e-be4e-a9048a857ee0}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

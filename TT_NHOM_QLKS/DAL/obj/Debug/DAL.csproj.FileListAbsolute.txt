@@ -1,0 +1,7 @@
+C:\Users\My computer\Documents\Visual Studio 2013\Projects\TT_NHOM_QLKS\DAL\bin\Debug\DAL.dll
+C:\Users\My computer\Documents\Visual Studio 2013\Projects\TT_NHOM_QLKS\DAL\bin\Debug\DAL.pdb
+C:\Users\My computer\Documents\Visual Studio 2013\Projects\TT_NHOM_QLKS\DAL\bin\Debug\DTO.dll
+C:\Users\My computer\Documents\Visual Studio 2013\Projects\TT_NHOM_QLKS\DAL\bin\Debug\DTO.pdb
+C:\Users\My computer\Documents\Visual Studio 2013\Projects\TT_NHOM_QLKS\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\My computer\Documents\Visual Studio 2013\Projects\TT_NHOM_QLKS\DAL\obj\Debug\DAL.dll
+C:\Users\My computer\Documents\Visual Studio 2013\Projects\TT_NHOM_QLKS\DAL\obj\Debug\DAL.pdb
