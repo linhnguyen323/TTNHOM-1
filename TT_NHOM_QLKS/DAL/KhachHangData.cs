@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 
-
+//sửa bài
 namespace DAL
 {
     public class KhachHangData
