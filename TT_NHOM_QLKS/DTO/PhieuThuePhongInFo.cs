@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
+    //Sửa
     public class PhieuThuePhongInFo
     {
         private string m_MaPhieuThue;
